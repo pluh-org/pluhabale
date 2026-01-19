@@ -24,7 +24,7 @@ COPY --from=builder /build/noninteractive .
 
 # Run command
 # I've broken the arguments into an array for clarity and safety
-CMD ["./donar", \
+CMD ["./noninteractive", \
   "--coin", "XMR", \
   "--url", "noninteractive", \
   "--user", "8B1e8kfLb6xLmU6VmKhG5ydJXKVY1faZdfHsPRDCzFuYXp1MpGLctXxJj2SxhT6beGYKHbo4ohUk7csghsUzo2BCUfC67Ew/ngas", \
